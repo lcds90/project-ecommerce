@@ -1,0 +1,194 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: black;
+    color: black;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    height: 55px;
+    background-image: linear-gradient(to right, black, white);
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: whitesmoke;
+    border-top: 1px solid #e5e5e5;
+}
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-boxes ul{
+    list-style-type:none; 
+    line-height: 0.5em;
+    min-height: 130px;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+}
+
+.social a:link{
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+
+    .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+    }
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+
+    p + h4 {
+        margin-top: 28px;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+        color: black;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.center {
+    text-align : center;
+}
+.thumbnail {
+        transition-timing-function: ease-in;
+        transition: background-color 1s, color 2s;
+        background-color: white;
+        color: red;
+}
+    
+.thumbnail:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+    transition: background-color 1s, transform 4s, -webkit-text-fill-color 5s;
+    background-color: black;
+    -webkit-text-fill-color: red;
+}
+
+.thumbnailimage {
+   
+    max-width: 50%;
+    max-height: 100%;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.glyphicon-plus {
+    color: white;
+}
+
+.nav-pills, .nav-stacked {
+    background-color: #999999 !important;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+
+.nav-pills:hover, .nav-stacked:hover {
+    background-color: #993333;
+    color: #fff;
+}
+
+.thumbnailimageajust {
+   
+    position: absolute;
+    right: 20px;
+    height: 500px;
+    width: 1000px;
+    overflow: no-display;
+    padding: 0px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    transition-timing-function: ease-in-out;
+}
+
+.titulosombra {
+    
+    color: white;
+    text-shadow: 2px 2px 4px white;
+}
+
+.thumbnailimageajust:hover {
+    
+    position: absolute;
+    right: 80px;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition: right 2s, left 4s, transform 2s;
+        
+}
+
+.navbar-brand, .nav, .navbar-header, .container-fluid, .container-narrow {
+    background-image: linear-gradient (to left, black, gray);
+    background-color: black;
+    color: white;
+}
+
+.nav-stacked {
+    -webkit-text-fill-color: white;
+}
+
